@@ -12,10 +12,10 @@ __powerline() {
     readonly GIT_PULL_SYMBOL='⇩'
     readonly GIT_SEPARATOR=''
 
-    readonly WARN_FG="\[\033[1;33m\]"
+    readonly WARN_FG="\[\033[0;93m\]"
     readonly ALERT_FG="\[\033[0;31m\]"
     readonly INFO_FG="\[\033[0;34m\]"
-    readonly SUCCESS_FG="\[\033[0;32m\]"
+    readonly SUCCESS_FG="\[\033[0;92m\]"
     readonly COMMON_INV_FG="\[\033[0;30m\]"
     readonly COMMON_FG="\[\033[10;39m\]"
     readonly COMMON_LIGHT_FG="\[\033[0;36m\]"
