@@ -28,3 +28,5 @@ https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code
 https://github.com/microsoft/terminal/tree/master/src/tools/ColorTool
 Use theme `solarized_dark`
 
+### Setup GUI and X-Server
+https://nickymeuleman.netlify.com/blog/gui-on-wsl2-cypress

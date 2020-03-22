@@ -125,8 +125,8 @@ __powerline() {
         else
             PS1+="$COMMON_FG$ALERT_BG$(gitInfo)$RESET"
         fi
-        PS1+="$consoleBackColor$COMMON_FG \n$PS_SYMBOL $COMMON_BG$consoleColor$GIT_SEPARATOR$RESET"
-        # PS1+="$consoleBackColor$COMMON_FG \n$PS_SYMBOL $RESET"
+        PS1+="$consoleBackColor$COMMON_FG$COMMON_BG$consoleColor$GIT_SEPARATOR$RESET"
+        PS1+="\n$PS_SYMBOL $COMMON_BG$RESET"
 
         if [ $isError -ne 0 ]; then
             PS1+=" "
